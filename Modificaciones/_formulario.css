@@ -1,0 +1,55 @@
+/* FORMULARIO DE CONTACTO */
+.contact-form {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fdfdfd;
+    border: 2px solid var(--color-navbar-horizontal);
+    border-radius: 12px;
+    font-family: var(--font-base);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Fila de inputs (2 columnas) */
+.contact-form__row {
+    display: flex;
+    gap: 20px;
+}
+
+/* Cada grupo */
+.contact-form__group {
+    flex: 1; /* se reparten espacio */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.contact-form__label {
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Inputs */
+.contact-form__input,
+.contact-form__textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+}
+
+/* Textarea ocupa todo el ancho */
+.contact-form__textarea {
+    min-height: 120px;
+}
+
+/* Botón ocupa todo el ancho pero centrado */
+.contact-form__button {
+    align-self: center;
+    width: 200px;
+}

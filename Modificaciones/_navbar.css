@@ -1,0 +1,54 @@
+/* Barra de navegación horizontal */
+.navbar {
+    background-color: var(--color-navbar-horizontal);
+}
+
+.navbar__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar__item {
+    margin: var(--spacing-item-y) var(--spacing-item-x);
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: var(--color-link);
+    font-size: var(--font-size-base);
+    font-family: var(--font-base);
+}
+.navbar__link:hover {
+    color: var(--color-link-hover);
+}
+
+/* Barra de navegación vertical*/
+.navbar--vertical {
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+.navbar--vertical__links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+    background-color: var(--color-navbar-vertical);
+}
+
+.navbar--vertical__item {
+    margin: var(--spacing-item-y) var(--spacing-item-x);
+}
+
+.navbar--vertical__link {
+    text-decoration: none;
+    color: var(--color-link-vertical);
+    font-size: var(--font-size-base);
+    font-family: var(--font-base);
+}
+.navbar--vertical__link:hover {
+    color: var(--color-link-vertical-hover);
+}

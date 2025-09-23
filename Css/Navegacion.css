@@ -1,51 +1,10 @@
+@import url(../Modificaciones/_button.css);
+@import url(../Modificaciones/_navbar.css);
+@import url(../Modificaciones/_root.css);
+@import url(../Modificaciones/_card.css);
+@import url(../Modificaciones/_gallery.css);
+@import url(../Modificaciones/_formulario.css);
 * {
     margin: 0;
     padding: 0;
-}
-
-.navbar {
-    background-color: rgb(196, 142, 77);
-}
-
-.navbar__links {
-    display:flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: center;
-}
-
-.navbar__item {
-    margin: 8px 10px;
-}
-
-.navbar__link {
-    text-decoration: none;
-    color: black;
-    font-size: larger;
-    font-family: sans-serif;
-}
-
-.Menu {
-    display: flex;
-    justify-content: flex-end;
-    height: 100vh;
-}
-
-.Menu__links {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    list-style: none;
-    background-color: rgb(183, 240, 221);
-}
-
-.Menu__item {
-    margin: 30px 10px;
-}
-
-.Menu__link {
-    text-decoration: none;
-    color: rgb(126, 88, 88);
-    font-size: larger;
-    font-family: sans-serif;
 }

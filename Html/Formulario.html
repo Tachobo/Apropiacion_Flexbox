@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/Navegacion.css">
+</head>
+<body>
+    <section>
+    <form class="contact-form">
+    <!-- fila 1 -->
+    <div class="contact-form__row">
+    <div class="contact-form__group">
+        <label for="name" class="contact-form__label">Nombre</label>
+        <input type="text" id="name" class="contact-form__input" placeholder="Tu nombre">
+    </div>
+    <div class="contact-form__group">
+        <label for="email" class="contact-form__label">Correo electrónico</label>
+        <input type="email" id="email" class="contact-form__input" placeholder="tunombre@email.com">
+    </div>
+    </div>
+<!-- Fila 2 -->
+    <div class="contact-form__row">
+    <div class="contact-form__group">
+        <label for="subject" class="contact-form__label">Asunto</label>
+        <input type="text" id="subject" class="contact-form__input" placeholder="Motivo del mensaje">
+    </div>
+    <div class="contact-form__group">
+        <label for="phone" class="contact-form__label">Teléfono</label>
+        <input type="tel" id="phone" class="contact-form__input" placeholder="+57 300 000 0000">
+    </div>
+    </div>
+
+    <!-- Mensaje -->
+    <div class="contact-form__group">
+        <label for="message" class="contact-form__label">Mensaje</label>
+        <textarea id="message" class="contact-form__textarea" placeholder="Escribe tu mensaje..."></textarea>
+    </div>
+
+    <!-- Botón -->
+    <button type="submit" class="button contact-form__button">Enviar</button>
+    </form>
+    </section>
+</body>
+</html>
