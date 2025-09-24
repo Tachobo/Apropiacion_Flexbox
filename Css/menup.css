@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+header {
+  background: rgb(55, 122, 122);
+  color: white;
+  text-align: center;
+  height: 100%;
+  box-sizing: border-box; /*evita que los elementos (en este caso el padding) hagan que el header
+  mida mas que la pantalla, metiendo el padding dentro de los 100vh del body*/
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 10px 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  background: blueviolet;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background:rgb(180, 11, 185);
+}

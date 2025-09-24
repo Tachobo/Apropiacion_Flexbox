@@ -1,9 +1,10 @@
+@import url('../Modificaciones/_root.css');
 /* FORMULARIO DE CONTACTO */
 .contact-form {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    background: #fdfdfd;
+    background: var(--color-navbar-vertical);
     border: 2px solid var(--color-navbar-horizontal);
     border-radius: 12px;
     font-family: var(--font-base);
@@ -12,15 +13,14 @@
     gap: 20px;
 }
 
-/* Fila de inputs (2 columnas) */
+/* fila de inputs en 2 columnas */
 .contact-form__row {
     display: flex;
     gap: 20px;
 }
 
-/* Cada grupo */
+/* Contenedor de los grupos de labels e inputs*/
 .contact-form__group {
-    flex: 1; /* se reparten espacio */
     display: flex;
     flex-direction: column;
 }
@@ -29,8 +29,8 @@
 .contact-form__label {
     margin-bottom: 6px;
     font-weight: bold;
-    font-size: 1rem;
-    color: #333;
+    font-size: var(--font-size-base);
+    color: var(--color);
 }
 
 /* Inputs */
@@ -43,13 +43,16 @@
     font-family: var(--font-base);
 }
 
-/* Textarea ocupa todo el ancho */
+/* Textarea ocupa todo el ancho del formulario */
 .contact-form__textarea {
     min-height: 120px;
 }
 
-/* Botón ocupa todo el ancho pero centrado */
+/* Botón centrado */
 .contact-form__button {
     align-self: center;
-    width: 200px;
+    width: 150px;
+}
+.contact-form__row .contact-form__group {
+    flex: 1;
 }

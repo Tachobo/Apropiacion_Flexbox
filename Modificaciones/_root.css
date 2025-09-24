@@ -3,15 +3,21 @@
 --color-navbar-horizontal: rgb(196, 142, 77);
 --color-navbar-vertical: rgb(183, 240, 221);
 --color-link: black;
+--color: rgb(228, 119, 119);
 --color-link-vertical: rgb(126, 88, 88);
 --color-link-hover: rgb(11, 145, 150);
 --color-link-vertical-hover: rgb(255, 87, 34);
+--background: rgba(223, 133, 133, 0.616);
 
   /* Tipografía */
 --font-base: sans-serif;
 --font-size-base: 1.125rem;
+--font-size: 1.55rem;
+--font-size-h2:2.5rem;
 
   /* Espaciado */
 --spacing-item-y: 30px;
 --spacing-item-x: 20px;
+--spacing: 10px;
+--spacing-nav:30px;
 }

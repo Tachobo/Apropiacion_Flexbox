@@ -1,0 +1,45 @@
+@import url(Navegacion.css);
+/* Sidebar general */
+.sidebar {
+    width: 120px;
+    height: 100vh;
+    background-color: #bb7a7a;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    position: fixed; 
+    top: 0;
+    left: 0;
+}
+
+/* Lista vertical */
+.sidebar__menu {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;  /* centra en la mitad de la barra */
+    align-items: center;  /* centra los item texto para que no queden pegados a la izquierda */
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ítems */
+.sidebar__item {
+    margin: 10px 0;
+}
+
+.sidebar__item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+/* Hover */
+.sidebar__item a:hover {
+    background-color: #923d3d;
+}

@@ -17,12 +17,15 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;  /* apila contenido */
+    justify-content: space-between;
 }
 
 /* Imagen dentro de la tarjeta */
 .card__image {
     width: 100%;
-    /* height: 180px; */
+    height: 180px;
     border-radius: 4px;
     margin-bottom: 10px;
 }
@@ -35,5 +38,6 @@
 
 .card__description {
     font-size: 1rem;
+    flex-grow: 1;              /* ocupa espacio sobrante */
     margin-bottom: 12px;
 }
