@@ -1,9 +1,9 @@
-@import url(../Modificaciones/_button.css);
-@import url(../Modificaciones/_navbar.css);
-@import url(../Modificaciones/_root.css);
-@import url(../Modificaciones/_card.css);
-@import url(../Modificaciones/_gallery.css);
-@import url(../Modificaciones/_formulario.css);
+@import url(../Modificaciones/mbutton.css);
+@import url(../Modificaciones/mnavbar.css);
+@import url(../Modificaciones/mroot.css);
+@import url(../Modificaciones/mcard.css);
+@import url(../Modificaciones/mgallery.css);
+@import url(../Modificaciones/mformulario.css);
 /* El css principal al que van vinculados algunos html */
 * {
     margin: 0;
