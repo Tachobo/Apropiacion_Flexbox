@@ -1,4 +1,6 @@
-@import url(navegante.css);
+/* @import url(navegante.css); */
+@import url(../Modificaciones/_button.css);
+
 .pricing-section {
     text-align: center;
     padding: 20px;

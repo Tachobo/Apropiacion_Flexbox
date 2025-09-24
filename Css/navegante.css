@@ -4,6 +4,7 @@
 @import url(../Modificaciones/_card.css);
 @import url(../Modificaciones/_gallery.css);
 @import url(../Modificaciones/_formulario.css);
+/* El css principal al que van vinculados algunos html */
 * {
     margin: 0;
     padding: 0;
