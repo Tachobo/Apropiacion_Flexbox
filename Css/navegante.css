@@ -1,11 +1,4 @@
-@import url(../Modificaciones/mbutton.css);
-@import url(../Modificaciones/mnavbar.css);
-@import url(../Modificaciones/mroot.css);
-@import url(../Modificaciones/mcard.css);
-@import url(../Modificaciones/mgallery.css);
-@import url(../Modificaciones/mformulario.css);
-/* El css principal al que van vinculados a algunos html en este 
-se importaron los modificadores de la carpeta Modificaciones */
+
 * {
     margin: 0;
     padding: 0;

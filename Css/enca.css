@@ -1,14 +1,15 @@
-@import url(../Modificaciones/mroot.css);
+
+
 * {
     margin: 0;
     padding: 0;
 }
 /* Contenedor del encabezado */
-.encabezado{
+.encabezador{
     display: flex;
     justify-content: space-between;
     background-color: var(--background);
-    min-height: 80px;
+    height: max-content;
     align-items: center;
 }
 /* Elementos del encabezado */
@@ -47,11 +48,11 @@
 }
 
 @media (max-width: 750px) {
-    header {
+    .encabezado--unico{
         flex-direction: column;
     }
 
-    nav{
+    .barra-nav{
         display: flex;
         justify-content: center;
         gap: var(--spacing-item-x);
