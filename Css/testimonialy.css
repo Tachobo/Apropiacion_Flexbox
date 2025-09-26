@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-header {
+.testimonial{
     display: flex;
     margin: 30px auto;
     width: 900px;
@@ -15,7 +15,7 @@ header {
     border-radius: 10px;
 }
 
-.testimonial__autor {
+.testimonial-autor{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -28,20 +28,20 @@ header {
     text-align: center;
 }
 
-.autor-name {
+.autor-info__autor-name {
     font-size: 1.5rem;
     color: #000000;
     margin-top: 15px;
 }
 
-.testimonial__autor p {
+.Empresa {
     font-size: var(--font-size-h2);
     background-color: aquamarine;
     border-radius: 10px;
     padding: 10px;
 }
 
-.testimonial__autor img {
+.autor-info__img{
     max-height: 200px;
     margin-right: 10px;
 }

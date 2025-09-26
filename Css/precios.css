@@ -4,13 +4,18 @@
     text-align: center;
     padding: 20px;
 }
-
+.pricing-card__titulo{
+    color: #b83b3b;
+}
 .pricing-container {
     display: flex;
     justify-content: center;
     gap: 20px; 
     padding-top: 30px;
     height: 300px;
+}
+.pricing__price{
+    color: white;
 }
 
 .pricing-card {

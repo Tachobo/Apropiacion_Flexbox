@@ -33,8 +33,8 @@
     max-height: 250px; /* Altura máxima */
 }
 
-/* Responsividad */
-@media (max-width: 1200px) {
+/* Responsividad no es necesaria causa un efecto bisarro en los breakpoint */
+/* [@media (max-width: 1200px) {
 .gallery .card {
     width: 30%;
 }
@@ -50,4 +50,4 @@
 .gallery .card {
 width: 90%;
 }
-}
+}] */

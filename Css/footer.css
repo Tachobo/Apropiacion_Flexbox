@@ -25,25 +25,32 @@ footer {
     text-align: center;
 }
 
-.footer-luzmar h3 {
+.footer-luzmar__titulo{
     margin-bottom: 10px;
     font-size: 1.2rem;
 }
 
-.footer-luzmar ul {
+.lista {
     list-style: none;
     padding: 0;
 }
 
-.footer-luzmar ul li {
+.lista__opciones {
     margin-bottom: 8px;
 }
 
-.footer-luzmar ul li a {
+.lista__opciones a {
     color: white;
     text-decoration: none;
 }
 
-.footer-luzmar ul li a:hover {
+.lista__opciones a:hover {
     color: aquamarine;
+}
+.footer-luzmar__titulo{
+    color: rgb(34, 71, 4);
+    font-size: 1.5em;
+}
+.footer-luzmar__texto{
+    color: antiquewhite;
 }

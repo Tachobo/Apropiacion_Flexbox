@@ -6,6 +6,9 @@
     background-color: aqua;
     max-width: 400px;
 }
+.task-list__titulo{
+    color: slateblue;
+}
 
 .task {
     flex-direction: column;
@@ -16,7 +19,7 @@
     list-style: none;
 }
 
-.task li {
+.task_opcion {
     display: flex;
     align-items: center;
     gap: 10px; /* Espacio entre checkbox y texto */

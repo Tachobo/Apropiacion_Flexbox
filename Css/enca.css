@@ -4,7 +4,7 @@
     padding: 0;
 }
 /* Contenedor del encabezado */
-header {
+.encabezado{
     display: flex;
     justify-content: space-between;
     background-color: var(--background);
@@ -12,38 +12,36 @@ header {
     align-items: center;
 }
 /* Elementos del encabezado */
-a {
-    text-decoration: none;
-    color:var(--color-link);
-}
-
 .logo{
     display: flex;
     align-items: center;
     padding: 10px;
+    text-decoration: none;
+    color:var(--color-link);
 }
 
-.logo h2 {
+.logo__Empresa {
     font-size: var(--font-size-h2);
 }
 
-.logo img {
+.logo__img {
     max-height: 70px;
     margin-right: 10px;
 }
 
-
-nav {
+.barra-nav{
     display: flex;
     align-items: center;
 }
 
-nav a {
+.barra-nav__opciones{
+    text-decoration: none;
+    color:var(--color-link);
     margin-right: var(--spacing-nav);
     font-size: var(--font-size);
 }
 
-nav a:hover{
+.barra-nav__opciones:hover{
     color: var(--color-link-hover);
     transition: 0.3s;
 }

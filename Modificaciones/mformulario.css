@@ -53,6 +53,9 @@
     align-self: center;
     width: 150px;
 }
+.contact-form__button--fondo{
+    background-color: black;
+}
 .contact-form__row .contact-form__group {
     flex: 1;
 }
