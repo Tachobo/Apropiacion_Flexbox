@@ -3,13 +3,16 @@
 }
 
 html, body {
-    height: 100%;             
+    height: 100%; /* Hace que la altura del body sea 100% */            
     display: flex;             
-    flex-direction: column;
+    flex-direction: column; /* No se por que pero hace que ocupen todo el espacio
+    horizontalmente, cuando en un principio solo deberia alinearlos en columnas
+    pero hace ambos, asi que nice */
 }
 
 footer {
-    margin-top: auto; /* despues de cuadrar el html y body empuja el footer hacia abajo */
+    margin-top: auto; /* despues de cuadrar el html y body empuja el 
+    footer hacia abajo */
     display: flex;
     justify-content: space-evenly;
     padding: 20px;

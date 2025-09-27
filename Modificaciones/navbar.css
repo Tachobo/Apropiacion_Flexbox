@@ -5,7 +5,6 @@
 
 .navbar__links {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     list-style: none;
 }
@@ -25,13 +24,13 @@
 }
 
 /* Barra de navegación vertical*/
-.navbar--vertical {
+.navbar-vertical {
     display: flex;
     justify-content: flex-end;
     height: 100vh;
 }
 
-.navbar--vertical__links {
+.navbar-vertical__links {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -39,16 +38,16 @@
     background-color: var(--color-navbar-vertical);
 }
 
-.navbar--vertical__item {
+.navbar-vertical__item {
     margin: var(--spacing-item-y) var(--spacing-item-x);
 }
 
-.navbar--vertical__link {
+.navbar-vertical__link {
     text-decoration: none;
     color: var(--color-link-vertical);
     font-size: var(--font-size-base);
     font-family: var(--font-base);
 }
-.navbar--vertical__link:hover {
+.navbar-vertical__link:hover {
     color: var(--color-link-vertical-hover);
 }

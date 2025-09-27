@@ -3,9 +3,12 @@
     text-align: center;
     padding: 20px;
 }
-
+/* Sin necesidad de poner flex-direction:row, los elementos se 
+alinean horizontalmente */
 .pricing-container {
     display: flex;
+    flex-wrap: wrap; /* Cuando se reduzca la pantalla hace que
+     los elementos se acomoden uno debajo de otro */
     justify-content: center;
     gap: 20px; 
     padding-top: 30px;
@@ -18,7 +21,8 @@
     padding: 15px;
     width: 200px;
     display: flex;
-    flex-direction: column; /* organizar vertical */
+    flex-direction: column; /* organizar verticalmente 
+    los elementos de las tarjetas */
     justify-content: space-between;
 }
 

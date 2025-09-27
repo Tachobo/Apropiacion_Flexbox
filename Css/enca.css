@@ -1,4 +1,4 @@
-@import url(../Modificaciones/_root.css);
+@import url(../Modificaciones/root.css);
 * {
     margin: 0;
     padding: 0;
@@ -6,20 +6,21 @@
 /* Contenedor del encabezado */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /*separa los elementos a los extremos
+    separandolos del logo y nombre de la empresa*/
     background-color: var(--background);
     min-height: 80px;
     align-items: center;
 }
 /* Elementos del encabezado */
 a {
-    text-decoration: none;
+    text-decoration: none; /* quita el subrayado de los elementos */
     color:var(--color-link);
 }
 
 .logo{
     display: flex;
-    align-items: center;
+    align-items: center; /* centra verticalmente los elementos logo y nombre en el header */
     padding: 10px;
 }
 
@@ -47,7 +48,7 @@ nav a:hover{
     color: var(--color-link-hover);
     transition: 0.3s;
 }
-
+/* Al llegar a 750px de ancho, el header cambia a columna, quedando el logo arriba y el nav abajo  */
 @media (max-width: 750px) {
     header {
         flex-direction: column;

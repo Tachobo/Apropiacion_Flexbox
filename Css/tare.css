@@ -1,15 +1,17 @@
+/* Estilos para la lista de tareas, lo que hace es colocar las tareas en una columna,
+dejando el titulo arriba y la lista de tareas abajo */
 .task-list {
     display: flex;                 
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;         
     margin: 20px auto;
     background-color: aqua;
     max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .task {
-    flex-direction: column;
-    text-align: center;
     padding: 10px 20px;
     background-color: #f3c2c2;
     border-radius: 8px;

@@ -1,4 +1,6 @@
 /* Contenedor general de tarjetas */
+/* aca se usa flex-wrap, para que los bloques a medida de que se disminuya el ancho
+de pantalla, se vayan acomodando uno debajo de otro */
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -18,8 +20,9 @@
     text-align: center;
     font-family: sans-serif;
     display: flex;
-    flex-direction: column;  /* apila contenido */
-    justify-content: space-between;
+    flex-direction: column;  /* se usa para alinear contenido verticalmente */
+    justify-content: space-between; /* distribuye el contenido uniformemente 
+    en el espacio disponible */
 }
 
 /* Imagen dentro de la tarjeta */
@@ -38,6 +41,6 @@
 
 .card__description {
     font-size: 1rem;
-    flex-grow: 1;              /* ocupa espacio sobrante */
+    flex-grow: 1;  /* ocupa espacio sobrante */
     margin-bottom: 12px;
 }

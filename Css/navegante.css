@@ -1,9 +1,9 @@
-@import url(../Modificaciones/_button.css);
-@import url(../Modificaciones/_navbar.css);
-@import url(../Modificaciones/_root.css);
-@import url(../Modificaciones/_card.css);
-@import url(../Modificaciones/_gallery.css);
-@import url(../Modificaciones/_formulario.css);
+@import url(../Modificaciones/button.css);
+@import url(../Modificaciones/navbar.css);
+@import url(../Modificaciones/root.css);
+@import url(../Modificaciones/card.css);
+@import url(../Modificaciones/gallery.css);
+@import url(../Modificaciones/formulario.css);
 * {
     margin: 0;
     padding: 0;

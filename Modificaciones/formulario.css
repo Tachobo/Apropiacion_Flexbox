@@ -1,4 +1,5 @@
-@import url('../Modificaciones/_root.css');
+@import url('../Modificaciones/root.css');
+/* se importan variables de colores, tamaño de letras desde el root.css */
 /* FORMULARIO DE CONTACTO */
 .contact-form {
     max-width: 800px;
@@ -9,14 +10,15 @@
     border-radius: 12px;
     font-family: var(--font-base);
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* este permite que los se alineen verticalmente*/
     gap: 20px;
 }
 
 /* fila de inputs en 2 columnas */
 .contact-form__row {
-    display: flex;
-    gap: 20px;
+    display: flex; /* en este espacio lo que hace es qu los elementos esten alineados horizontalmente 
+    y junto al anterior que sigan siendo verticales*/
+    gap: 20px; /* le da un espacio entre los elementos */
 }
 
 /* Contenedor de los grupos de labels e inputs*/
@@ -54,5 +56,5 @@
     width: 150px;
 }
 .contact-form__row .contact-form__group {
-    flex: 1;
+    flex: 1; /* cada grupo ocupa el mismo espacio disponible */
 }
